@@ -42,7 +42,7 @@ export function renderPreBattleCard(parentDiv:HTMLDivElement) {
 
     //on set le title et le bottom but action : 
     setTitle("PRE-BATTLE");
-    setBottomBut("<< MENU PRINCIPAL", () => { renderMenu(parentDiv) })
+    setBottomBut("<< RETURN TO MAIN MENU", () => { renderMenu(parentDiv) })
 
     //on nettoie la parenttdiv (maindiv) et y met prebattleCard
     parentDiv.innerHTML="";

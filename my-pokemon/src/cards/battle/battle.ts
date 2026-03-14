@@ -71,7 +71,7 @@ export function renderBattleCard() {
                 onClickFunc: () => { renderHealModal(battleMenuModal) }
             },
             {
-                label: "OBJET",
+                label: "OBJECT",
                 selected: false,
                 onClickFunc: () => { }
             })
@@ -106,7 +106,7 @@ export function renderBattleCard() {
 
     //on set le title et le bottombut
     setTitle("BATTLE");
-    setBottomBut("<< MENU PRINCIPAL", () => { renderMenu(mainDiv) })
+    setBottomBut("<< RETURN TO MAIN MENU", () => { renderMenu(mainDiv) })
 
     // on ajoute a main div la battlecard:
     mainDiv.innerHTML = "";

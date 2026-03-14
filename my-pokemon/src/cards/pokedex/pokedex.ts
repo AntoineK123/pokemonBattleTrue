@@ -80,6 +80,6 @@ export function renderPokedex(
   setTitle("POKEDEX");
 
   //on set le button 
-  setBottomBut("<< MENU PRINCIPAL",()=>{renderMenu(parentDiv)})
+  setBottomBut("<< RETURN TO MAIN MENU",()=>{renderMenu(parentDiv)})
   
 }

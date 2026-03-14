@@ -2,7 +2,7 @@
 import './style.css'
 
 //import de la fonction render menu
-import { renderMenu } from './cards/mainmenu/menu';
+import { renderWelcome } from './cards/welcome/welcome';
 //import de initialsong pour faire "play/pause en baissant le volume / augmentant"
 import { toggleVolume } from './sound/soundmanagement';
 
@@ -18,7 +18,7 @@ const playBut = document.getElementById("playpause")as HTMLElement;;
 //on ajoute au but la fonction play/pause
 playBut.addEventListener("click", () => {toggleVolume()})
 //on render la fonction menu : 
-renderMenu(mainDiv);
+renderWelcome(mainDiv);
 
  
 

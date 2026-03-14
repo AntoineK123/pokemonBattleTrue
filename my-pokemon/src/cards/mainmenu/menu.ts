@@ -40,7 +40,7 @@ export function renderMenu(
     DivMenuStyle(menuEleArray, parentDiv);
 
     //on ajoute le titre de la section en cours
-    setTitle("MENU PRINCIPAL");
+    setTitle("MAIN MENU");
 
     //On set le button du bas un bouton vide
     setBottomBut("");

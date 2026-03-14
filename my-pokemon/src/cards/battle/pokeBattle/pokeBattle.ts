@@ -3,10 +3,9 @@
 
 //pour savoir quel pokemon a ete choisi
 
-import { playersSel } from "../../../data/data";
-import type { IplayersSel } from "../../../interfaces";
 
-import { PokeofNewBattle, turn } from "../../../data/data";
+
+import { PokeofNewBattle } from "../../../data/data";
 
 
 
@@ -16,7 +15,7 @@ import type { Pokemon } from "../../../classes/classes";
 export function renderPokeBattleCard(playerid:number){
 
     //on definie le current poke base sur le current player:
-    const currentPoke:Pokemon=PokeofNewBattle[playerid]
+    const currentPoke:Pokemon=PokeofNewBattle[playerid] as Pokemon;
 
 
     const pokeBattleCard=document.createElement("div");
