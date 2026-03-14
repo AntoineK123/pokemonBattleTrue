@@ -1,12 +1,15 @@
 {
   "name": "my-pokemon",
+  "homepage":"https://AntoineK123.github.io/pokemonBattleTrue/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+	"predeploy":"npm run build",
+	"deploy":"gh-pages -d dist"
   },
   "devDependencies": {
     "typescript": "~5.9.3",
