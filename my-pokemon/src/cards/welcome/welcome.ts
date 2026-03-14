@@ -3,7 +3,6 @@ import { DivMenuStyle, setBottomBut, setTitle } from "../../utils";
 
 import type { menuElement } from "../../interfaces";
 //pour sound 
-import { playSong,currentAudio } from "../../sound/soundmanagement";
 import { renderMenu } from "../mainmenu/menu";
 
 
