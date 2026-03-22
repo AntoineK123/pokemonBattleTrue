@@ -69,7 +69,8 @@ Le jeu fonctionne entièrement côté client (frontend only) — aucun serveur n
 
 Ce projet a été réalisé dans une logique d’apprentissage :
 
-- Faire du pseudo React
+- Faire du React like
+- Utilisation de l'outil Vite
 - Cas d'usage de la POO
 - Structuration d’un projet frontend  
 - Choix des fonctionnalités à privilégier en priorité
