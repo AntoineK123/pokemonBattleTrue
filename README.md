@@ -2,6 +2,8 @@
 
 Un mini-jeu en ligne permettant de simuler des combats entre deux Pokémon directement dans le navigateur.
 
+Tester par vous même 😉 : https://antoinek123.github.io/pokemonBattleTrue/
+
 ## 🚀 Description
 
 Ce projet est un MVP (Minimum Viable Product) d’un jeu de combat Pokémon simplifié.  
