@@ -67,13 +67,13 @@ export const pokeRawInfoArr: IPokemonInfo[] = [
   // ---- ATTAQUES :  COMMUNES - TYPEES - PERSONELLES ---- // 
 
     //objet qui va stocker les communes attaques à tous les pokemons
-    export const pokeAllAttacks: IAttack[]=[{label:"Charge",damage:10,pp:99}]
+    export const pokeAllAttacks: IAttack[]=[{label:"Charge",damage:15,pp:99}]
 
     //objet qui stocke les attaques "typées" par type
     export const pokeTypeAttacks:Record<string,IAttack[]>={
-      "feu":[{label:"Boule de feu",damage:20,pp:3}],
-      "herbe":[{label:"Epines tranchantes",damage:20,pp:3}],
-      "eau":[{label:"Pluie torrentielle",damage:20,pp:3}],
+      "feu":[{label:"Boule de feu",damage:30,pp:3}],
+      "herbe":[{label:"Epines tranchantes",damage:30,pp:3}],
+      "eau":[{label:"Pluie torrentielle",damage:30,pp:3}],
       //un pokemon peut ne pas avoir de type (et donc pas d'attaque typée)
       "none":[]
     }
@@ -81,10 +81,10 @@ export const pokeRawInfoArr: IPokemonInfo[] = [
         //on stocke ici la/les attaques personelle de chaque pokemon basé sur l'id du pokemon en clé
     export const pokePersoAttacks:Record<number,IAttack[]>={
       //basé sur l'id du poke on lui affecte des attaques personelles
-      1:[{label:"Epines brulantes",damage:15,pp:5}],
-      2:[{label:"Fouet de lianes",damage:15,pp:5}],
-      3:[{label:"Hydroqueue",damage:15,pp:5}],
-      4:[{label:"Croc Fatal",damage:15,pp:5}],
+      1:[{label:"Epines brulantes",damage:20,pp:5}],
+      2:[{label:"Fouet de lianes",damage:20,pp:5}],
+      3:[{label:"Hydroqueue",damage:20,pp:5}],
+      4:[{label:"Croc Fatal",damage:20,pp:5}],
     }
 
 
@@ -95,19 +95,19 @@ export const pokeRawInfoArr: IPokemonInfo[] = [
 
     //objet qui stocke les heals "typées" par type
     export const pokeTypeHeals:Record<string,IHeal[]>={
-      "feu":[{label:"Galet de charbon",extraPV:40,pp:2}],
-      "herbe":[{label:"Poudre minérale",extraPV:40,pp:2}],
-      "eau":[{label:"Laitue de mer",extraPV:40,pp:2}],
+      "feu":[{label:"Galet de charbon",extraPV:40,pp:1}],
+      "herbe":[{label:"Poudre minérale",extraPV:40,pp:1}],
+      "eau":[{label:"Laitue de mer",extraPV:40,pp:1}],
       "none":[]
     }
 
     //on stock ici la/les heals personel de chaque pokemon basé sur l'id du pokemon en clé 
     export const pokePersoHeals:Record<number,IHeal[]>={
       //basé sur l'id du poke on lui affecte des attaques personelles
-      1:[{label:"Repli épineux",extraPV:30,pp:2}],
-      2:[{label:"Vernalisation",extraPV:30,pp:2}],
-      3:[{label:"Mue aquatique",extraPV:30,pp:2}],
-      4:[{label:"Cachette Vitale",extraPV:30,pp:2}],
+      1:[{label:"Repli épineux",extraPV:30,pp:1}],
+      2:[{label:"Vernalisation",extraPV:30,pp:1}],
+      3:[{label:"Mue aquatique",extraPV:30,pp:1}],
+      4:[{label:"Cachette Vitale",extraPV:30,pp:1}],
     }
 
 
